@@ -32,5 +32,13 @@ public class TestOtomasyonuPage {
     @FindBy(xpath = "//*[@id='password']")
     public  WebElement loginSayfasiPassWordBox;
 
+    @FindBy(id = "submitlogin")
+    public WebElement loginPageSignBox;
+
+    @FindBy (xpath = "//span[.='Logout']")
+    public WebElement userPageLogOutBox;
+
+
+
 
 }
